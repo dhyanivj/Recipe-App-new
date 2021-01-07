@@ -8,7 +8,7 @@ export default function App() {
 
   const [recipes, setRecipes] = useState([]);
   const [search, setSearch] = useState("");
-  const [query, setQuery] = useState("chiken");
+  const [query, setQuery] = useState("icecream");
 
   useEffect(() => {
     getRecipe();

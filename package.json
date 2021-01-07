@@ -1,7 +1,7 @@
 {
-  "name": "recipe-app-deved",
+  "name": "final-recipe-app",
   "version": "1.0.0",
-  "description": "https://www.youtube.com/watch?v=U9T6YkEDkMo&ab_channel=DevEd",
+  "description": "",
   "keywords": [],
   "main": "src/index.js",
   "dependencies": {

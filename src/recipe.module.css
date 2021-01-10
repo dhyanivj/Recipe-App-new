@@ -3,19 +3,39 @@
   box-shadow: 0px 5px 20px gray;
   margin: 20px;
   display: flex;
-
+  border: 1px solid white;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  background: rgb(255, 253, 249);
-  min-width: 10%;
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  /* min-width: 10%; */
+}
+.calories {
+  /* background-color: rgb(116, 182, 204); */
+  border-radius: 50px 50px 10px 10px;
+  padding: 10px 20px;
+  background-image: linear-gradient(to right, #1c79cad0 0%, #10b9c2b9 50%);
+  box-shadow: 5px 1px 10px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  margin-top: 10px;
 }
 .image {
   max-height: 200px;
   object-fit: cover;
   max-width: 100;
-
   width: 100%;
   border-radius: 10px;
   height: auto;
+}
+.title {
+  padding: 5px 10px;
+  text-align: center;
+  border-radius: 10px;
+  margin: 10px;
+  border: 1.5px solid #52b7d3;
+  /* background-image: linear-gradient(to right, #1c79cab0 0%, #10b9c2b9 50%); */
+  box-shadow: 5px 1px 10px rgba(0, 0, 0, 0.11), 0 6px 6px rgba(0, 0, 0, 0.2);
 }

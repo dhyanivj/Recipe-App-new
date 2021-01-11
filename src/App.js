@@ -34,18 +34,22 @@ export default function App() {
 
   return (
     <div className="App">
-      <form className="search-form" onSubmit={getSearch}>
-        <input
-          type="text"
-          className="search-bar"
-          value={search}
-          onChange={updateSearch}
-        />
-        <button type="submit" className="search-button">
-          {" "}
-          search{" "}
-        </button>
-      </form>
+      <div className="form-wrapper">
+        <h2 className="App-Name">Frupe.</h2>
+        <p>A fruit recipe search App </p>
+        <form className="search-form" onSubmit={getSearch}>
+          <input
+            type="text"
+            className="search-bar"
+            value={search}
+            onChange={updateSearch}
+          />
+          <button type="submit" className="search-button">
+            {" "}
+            search{" "}
+          </button>
+        </form>{" "}
+      </div>
       <div className="recipes">
         {recipes.map((recipe) => (
           <Recipe

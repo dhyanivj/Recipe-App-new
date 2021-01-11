@@ -1,4 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap");
+
 * {
   margin: 0;
   font-family: "Montserrat", sans-serif;
@@ -9,6 +12,16 @@
   background-color: #edfbff;
   background-attachment: fixed;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160' viewBox='0 0 200 200'%3E%3Cpolygon fill='%23b7e1fa' points='100 0 0 100 100 100 100 200 200 100 200 0'/%3E%3C/svg%3E");
+}
+.App-Name {
+  /* font-family: 'Pacifico', cursive; */
+  font-size: 35px;
+  font-family: "Kaushan Script", cursive;
+}
+.form-wrapper > p {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-size: 10px;
+  margin-bottom: 7px;
 }
 .search-form {
   min-height: 10vh;
@@ -44,4 +57,14 @@
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+}
+.form-wrapper {
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  margin: 5px 50px;
+  padding: 5px;
 }

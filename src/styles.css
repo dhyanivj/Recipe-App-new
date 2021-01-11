@@ -37,7 +37,7 @@
   border: none;
   padding: 10px;
   border-radius: 5px;
-  box-shadow: 1px 1px 15px rgb(155, 155, 155);
+  box-shadow: 0.5px 0.5px 10px rgb(155, 155, 155);
   outline: none;
 }
 
@@ -45,7 +45,7 @@
   background-image: linear-gradient(to right, #1c79ca 0%, #10b9c2 100%);
   border-radius: 6px;
   margin: 5px;
-  box-shadow: 1px 1px 15px rgb(155, 155, 155);
+  box-shadow: 0.5px 0.5px 10px rgb(155, 155, 155);
   cursor: pointer;
   border: 1px solid snow;
   padding: 10px 20px;

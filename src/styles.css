@@ -17,11 +17,14 @@
 .App-Name {
   /* font-family: 'Pacifico', cursive; */
   font-size: 35px;
+  color: #257dca;
   font-family: "Kaushan Script", cursive;
 }
 .form-wrapper > p {
   font-family: "Montserrat Alternates", sans-serif;
   font-size: 9px;
+  color: #1b4870;
+
   margin-bottom: 7px;
 }
 .search-form {
@@ -35,7 +38,7 @@
 .search-bar {
   width: 50%;
   border: none;
-  padding: 10px;
+  padding: 12px;
   border-radius: 5px;
   box-shadow: 0.5px 0.5px 10px rgb(155, 155, 155);
   outline: none;

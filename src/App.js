@@ -8,7 +8,7 @@ export default function App() {
 
   const [recipes, setRecipes] = useState([]);
   const [search, setSearch] = useState("");
-  const [query, setQuery] = useState("noodles");
+  const [query, setQuery] = useState("Mango");
 
   useEffect(() => {
     getRecipe();
@@ -44,6 +44,7 @@ export default function App() {
             type="text"
             className="search-bar"
             value={search}
+            placeholder="Enter Any Fruit Name.."
             onChange={updateSearch}
           />
           <button type="submit" className="search-button">
